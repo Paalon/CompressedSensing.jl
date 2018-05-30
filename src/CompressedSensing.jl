@@ -11,7 +11,7 @@ export evaluateloss
 """
     l1reconstruct(x, A)
 
-Return estimated x by $\\ell_1$ reconstruction.
+Return estimated x by ``\ell_1`` reconstruction.
 """
 function l1reconstruct(unknown_x::Array{Float64, 1}, A::Array{Float64, 2})
     N = length(unknown_x)
